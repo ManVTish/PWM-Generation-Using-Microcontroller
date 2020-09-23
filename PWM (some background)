@@ -1,0 +1,9 @@
+PWM (Pulse Width Modulation) is basically an anlaog signal produced from digital source. Since it's analog it is continuous and the fact that it can vary is controlled 
+by two parameters : dutyCycle and timePeriod. Duty-cycle is important from the aspect that it controls how much (voltage/any signal) to be delivered. It ranges from 0-1.
+But why do we even need PWM pulses in the first place?
+  Let me put it this way, suppose I connect a dc motor to a 9V dc battery (let us take only these 2 for now) and the motor shaft runs, but I want the speed to be less.
+So I disconnect the motor from battery, but it slows down very fast (far less speed than I need). If I continuously connect and disconnect the dc motor from the battery
+the speed will be less than what it would have been if it stays connected.
+   AGAIN, THERE ARE OTHER WAYS TO CONTROL SPEED OF MOTOR AS I KNOW FROM MY ELECTRICAL MACHINE COURSE.
+So PWM comes into picture. It does the same continuous switching and to be precise, it controls the duration of switch ON/OFF i.e, dutyCycle. Furthermore, time-period 
+decides how fast the switching takes place.
