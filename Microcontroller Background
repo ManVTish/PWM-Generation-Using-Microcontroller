@@ -1,0 +1,7 @@
+A little knowledge regarding microcontroller is needed. In this repo, we will be using ATMEGA328P and ATSAM3X8E microcontrollers and yes we can obviously 
+use any microcontroller. One thing that would make a difference is the fact that ATMEGA328P has only timers for producing PWM pulses but ATSAM3X8E has a PWM 
+peripheral for that purpose along with timers. Since I'm using these 2 MCUs(microcontrollers) I'm goona give some important insights on them.
+
+         ATMEGA328P
+
+It is an 8-bit microcontroller 
